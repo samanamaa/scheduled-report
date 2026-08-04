@@ -1,4 +1,4 @@
-from hello_automation.app import main
+from scheduled_report.app import main
 
 if __name__ == "__main__":
     main()

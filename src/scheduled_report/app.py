@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from hello_automation.csv_reader import csv_reader
+from scheduled_report.csv_reader import csv_reader
 
 
 def main():
