@@ -1,5 +1,4 @@
-from hello_automation import main as run_main
-
+from hello_automation.app import main
 
 if __name__ == "__main__":
-    run_main()
+    main()
