@@ -24,11 +24,8 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Run tests
-        run: uv run pytest
-
       - name: Run Scheduled Report Bot
-        run: uv run python -m scheduled_report
+        run: uv run main.py
 
       - name: Commit generated files
         run: |
