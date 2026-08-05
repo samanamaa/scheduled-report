@@ -2,11 +2,12 @@ name: Scheduled Automation
 
 on:
   schedule:
-    - cron: "0 8 * * *"   # Every day at 08:00 UTC
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: read
 
 jobs:
   run:
@@ -26,6 +27,8 @@ jobs:
 
       - name: Run Scheduled Report Bot
         run: uv run main.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Commit generated files
         run: |
@@ -35,14 +38,17 @@ jobs:
           git add reports/report.txt
           git add data/snapshot.json
 
-          git diff --cached --quiet || git commit -m "Daily scheduled report"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily scheduled report"
+            git push
+          fi
 
-      - name: Push changes
-        run: git push
-
-      - name: Notify Discord
+      - name: Upload snapshot.json to Discord
         if: success()
         run: |
-          curl -H "Content-Type: application/json" \
-          -d "{\"content\":\"Scheduled Report Bot completed successfully.\"}" \
-          ${{ secrets.DISCORD_WEBHOOK_REPORT }}
+          curl \
+            -F "file1=@data/snapshot.json" \
+            -F 'payload_json={"content":"Workflow snapshot"}' \
+            ${{ secrets.DISCORD_WEBHOOK_REPORT }}
