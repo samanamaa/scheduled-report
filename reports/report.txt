@@ -1,0 +1,306 @@
+Report generated at 2026-08-05 11:10:55.238672
+
+Total revenue: 76070.17 €
+Top 3 products: [('Analytics Suite', 499.23), ('Sensor Kit', 498.73), ('Support Plan', 497.61)]
+
+All products:
+CloudSync: 373.35 €
+DataViz License: 341.57 €
+Router X200: 24.59 €
+Widget Pro: 107.42 €
+Sensor Kit: 298.73 €
+Router X200: 146.15 €
+CloudSync: 196.15 €
+Support Plan: 367.56 €
+Router X200: 280.49 €
+Sensor Kit: 32.44 €
+CloudSync: 434.57 €
+Analytics Suite: 89.69 €
+Support Plan: 308.46 €
+DataViz License: 195.92 €
+API Credits: 122.22 €
+Router X200: 42.42 €
+Sensor Kit: 203.85 €
+DataViz License: 78.41 €
+Router X200: 205.70 €
+Analytics Suite: 380.32 €
+DataViz License: 302.23 €
+Analytics Suite: 133.18 €
+CloudSync: 377.92 €
+CloudSync: 223.02 €
+Support Plan: 383.35 €
+Support Plan: 308.39 €
+DataViz License: 477.20 €
+API Credits: 19.53 €
+Sensor Kit: 128.02 €
+CloudSync: 409.84 €
+DataViz License: 473.95 €
+Router X200: 465.16 €
+Support Plan: 497.61 €
+Analytics Suite: 231.22 €
+CloudSync: 20.30 €
+Sensor Kit: 44.78 €
+Sensor Kit: 453.65 €
+Sensor Kit: 337.79 €
+Analytics Suite: 394.45 €
+CloudSync: 332.89 €
+Router X200: 433.27 €
+Widget Pro: 366.81 €
+Sensor Kit: 272.77 €
+DataViz License: 236.68 €
+CloudSync: 329.54 €
+CloudSync: 91.48 €
+Sensor Kit: 452.19 €
+Widget Pro: 139.94 €
+Router X200: 334.31 €
+Sensor Kit: 116.66 €
+API Credits: 34.56 €
+Widget Pro: 49.24 €
+CloudSync: 207.84 €
+Widget Pro: 50.16 €
+Support Plan: 338.16 €
+Support Plan: 74.12 €
+Analytics Suite: 465.21 €
+Analytics Suite: 499.23 €
+Sensor Kit: 139.94 €
+Sensor Kit: 149.63 €
+Widget Pro: 156.69 €
+DataViz License: 66.55 €
+Support Plan: 306.36 €
+Support Plan: 249.37 €
+Router X200: 31.59 €
+Support Plan: 373.19 €
+Widget Pro: 46.86 €
+Widget Pro: 295.42 €
+DataViz License: 161.04 €
+Sensor Kit: 336.79 €
+DataViz License: 433.65 €
+Widget Pro: 370.91 €
+Sensor Kit: 88.00 €
+Router X200: 430.70 €
+Analytics Suite: 159.53 €
+Widget Pro: 205.24 €
+Support Plan: 324.32 €
+Widget Pro: 439.74 €
+Support Plan: 63.11 €
+API Credits: 307.03 €
+Router X200: 103.13 €
+Widget Pro: 463.52 €
+API Credits: 44.28 €
+API Credits: 362.67 €
+Router X200: 207.17 €
+Sensor Kit: 335.81 €
+Support Plan: 278.48 €
+Support Plan: 220.64 €
+Analytics Suite: 226.65 €
+DataViz License: 149.05 €
+CloudSync: 339.66 €
+DataViz License: 32.63 €
+Analytics Suite: 444.20 €
+Router X200: 205.82 €
+CloudSync: 117.22 €
+Widget Pro: 132.10 €
+DataViz License: 337.10 €
+Analytics Suite: 409.34 €
+Analytics Suite: 374.38 €
+Support Plan: 421.52 €
+Sensor Kit: 225.53 €
+Support Plan: 166.65 €
+DataViz License: 123.31 €
+Sensor Kit: 213.28 €
+Router X200: 111.34 €
+Widget Pro: 196.38 €
+Support Plan: 428.18 €
+Analytics Suite: 143.73 €
+Router X200: 337.74 €
+Analytics Suite: 490.54 €
+Router X200: 286.54 €
+Router X200: 434.75 €
+Support Plan: 170.39 €
+API Credits: 146.34 €
+CloudSync: 19.49 €
+API Credits: 328.56 €
+Widget Pro: 107.68 €
+Sensor Kit: 242.03 €
+Analytics Suite: 385.77 €
+DataViz License: 62.96 €
+Router X200: 471.31 €
+Sensor Kit: 351.61 €
+Widget Pro: 271.04 €
+CloudSync: 327.29 €
+Analytics Suite: 222.42 €
+DataViz License: 96.30 €
+Analytics Suite: 223.42 €
+API Credits: 417.05 €
+Analytics Suite: 377.72 €
+API Credits: 252.20 €
+Analytics Suite: 183.85 €
+Support Plan: 353.57 €
+Sensor Kit: 128.25 €
+Sensor Kit: 326.48 €
+Widget Pro: 154.17 €
+Support Plan: 190.81 €
+Router X200: 172.08 €
+Support Plan: 133.18 €
+API Credits: 374.00 €
+Sensor Kit: 371.91 €
+CloudSync: 155.15 €
+Support Plan: 356.92 €
+Widget Pro: 281.14 €
+Analytics Suite: 437.62 €
+Analytics Suite: 225.82 €
+Support Plan: 65.89 €
+Analytics Suite: 292.73 €
+DataViz License: 407.45 €
+Sensor Kit: 283.45 €
+Router X200: 455.16 €
+Support Plan: 314.29 €
+Sensor Kit: 139.67 €
+Sensor Kit: 280.47 €
+Router X200: 347.78 €
+Widget Pro: 151.16 €
+CloudSync: 462.71 €
+Router X200: 276.83 €
+Support Plan: 44.98 €
+Support Plan: 70.92 €
+Router X200: 255.22 €
+CloudSync: 29.52 €
+Support Plan: 54.74 €
+Support Plan: 29.70 €
+Analytics Suite: 98.92 €
+Analytics Suite: 240.30 €
+API Credits: 430.28 €
+Analytics Suite: 334.66 €
+Analytics Suite: 164.10 €
+Router X200: 414.20 €
+Router X200: 101.91 €
+Analytics Suite: 109.73 €
+Support Plan: 441.60 €
+Widget Pro: 401.65 €
+Widget Pro: 209.91 €
+Analytics Suite: 327.37 €
+Support Plan: 355.64 €
+Analytics Suite: 233.82 €
+Sensor Kit: 259.03 €
+Support Plan: 176.53 €
+Widget Pro: 365.75 €
+DataViz License: 273.89 €
+Router X200: 467.09 €
+Router X200: 429.44 €
+API Credits: 355.55 €
+DataViz License: 482.75 €
+CloudSync: 58.85 €
+DataViz License: 436.75 €
+Analytics Suite: 175.89 €
+CloudSync: 427.64 €
+API Credits: 437.46 €
+Sensor Kit: 498.73 €
+CloudSync: 227.39 €
+Widget Pro: 168.93 €
+API Credits: 221.03 €
+DataViz License: 95.77 €
+Sensor Kit: 457.28 €
+Analytics Suite: 235.18 €
+Analytics Suite: 342.02 €
+Analytics Suite: 493.94 €
+Support Plan: 424.19 €
+Analytics Suite: 126.22 €
+Support Plan: 20.74 €
+Support Plan: 287.30 €
+Analytics Suite: 390.10 €
+Sensor Kit: 314.23 €
+CloudSync: 161.37 €
+API Credits: 54.16 €
+Router X200: 108.38 €
+Support Plan: 135.91 €
+API Credits: 239.47 €
+Sensor Kit: 483.95 €
+CloudSync: 16.81 €
+Analytics Suite: 339.68 €
+Router X200: 63.08 €
+Widget Pro: 443.27 €
+Sensor Kit: 321.34 €
+Router X200: 78.48 €
+Analytics Suite: 57.61 €
+Router X200: 191.79 €
+DataViz License: 330.90 €
+Support Plan: 348.23 €
+Analytics Suite: 429.16 €
+API Credits: 205.08 €
+Analytics Suite: 334.75 €
+Widget Pro: 129.34 €
+CloudSync: 111.50 €
+API Credits: 396.43 €
+Support Plan: 493.88 €
+DataViz License: 333.91 €
+Widget Pro: 397.08 €
+Widget Pro: 140.02 €
+CloudSync: 243.35 €
+Analytics Suite: 118.55 €
+Support Plan: 325.23 €
+Analytics Suite: 218.86 €
+Analytics Suite: 450.63 €
+CloudSync: 144.75 €
+Router X200: 269.96 €
+CloudSync: 427.86 €
+Router X200: 445.15 €
+Analytics Suite: 213.82 €
+Router X200: 335.89 €
+Analytics Suite: 54.69 €
+Router X200: 374.84 €
+Widget Pro: 478.74 €
+CloudSync: 183.25 €
+Widget Pro: 304.19 €
+Sensor Kit: 331.79 €
+API Credits: 190.09 €
+Router X200: 487.52 €
+Support Plan: 98.39 €
+API Credits: 12.98 €
+CloudSync: 373.06 €
+Sensor Kit: 215.71 €
+API Credits: 363.57 €
+Widget Pro: 87.12 €
+CloudSync: 227.12 €
+Analytics Suite: 143.84 €
+API Credits: 64.33 €
+Support Plan: 118.04 €
+Widget Pro: 157.69 €
+Support Plan: 170.77 €
+Router X200: 73.29 €
+API Credits: 204.55 €
+Widget Pro: 461.36 €
+Router X200: 151.85 €
+API Credits: 402.64 €
+API Credits: 223.98 €
+Router X200: 206.21 €
+Support Plan: 118.56 €
+CloudSync: 259.87 €
+DataViz License: 60.36 €
+DataViz License: 84.90 €
+DataViz License: 237.33 €
+API Credits: 83.96 €
+Analytics Suite: 400.19 €
+API Credits: 46.34 €
+Widget Pro: 190.67 €
+CloudSync: 301.09 €
+Widget Pro: 455.42 €
+API Credits: 243.05 €
+Analytics Suite: 407.36 €
+DataViz License: 131.38 €
+DataViz License: 192.69 €
+Router X200: 342.65 €
+CloudSync: 56.30 €
+Support Plan: 364.62 €
+API Credits: 295.53 €
+Support Plan: 73.18 €
+Router X200: 408.45 €
+Router X200: 187.29 €
+DataViz License: 177.44 €
+Sensor Kit: 85.91 €
+Widget Pro: 439.42 €
+Router X200: 89.49 €
+Analytics Suite: 211.31 €
+Analytics Suite: 149.60 €
+Sensor Kit: 483.13 €
+API Credits: 492.37 €
+Router X200: 268.45 €

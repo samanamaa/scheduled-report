@@ -1,16 +1,5 @@
-from datetime import datetime
-
-from scheduled_report.csv_reader import csv_reader
-
+from scheduled_report.report import report
 
 def main():
-
-    print(datetime.now())
-    print()
-
-    total, top, rows = csv_reader()
-
-    print(f"Total revenue: {total:.2f} €")
-    print(f"Top 3 products: {top}")
-
-    print()
+    report()
+    print(f"Report generated")
