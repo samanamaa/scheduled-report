@@ -41,7 +41,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Daily scheduled report"
+            git commit -m "Daily scheduled report #${{ github.run_number }} [skip ci]"
             git push
           fi
 
