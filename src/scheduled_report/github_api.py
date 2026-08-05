@@ -7,7 +7,7 @@ import requests
 SNAPSHOT = Path(__file__).resolve().parents[2] / "data" / "snapshot.json"
 
 
-def save_workflow_snapshot():
+def save_snapshot():
     repository = os.environ["GITHUB_REPOSITORY"]
     run_id = os.environ["GITHUB_RUN_ID"]
     token = os.environ["GITHUB_TOKEN"]
