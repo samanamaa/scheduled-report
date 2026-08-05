@@ -1,12 +1,51 @@
-name: Scheduled automation
+name: Scheduled Automation
+
 on:
-    schedule:
-        -   cron: "0 8 * * *" # every day at 08:00 UTC
-    workflow_dispatch: # also lets you run it manually
+  schedule:
+    - cron: "0 8 * * *"   # Every day at 08:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
-    run:
-        runs-on: ubuntu-latest
-        steps:
-            -   uses: actions/checkout@v4
-            -   uses: astral-sh/setup-uv@v5
-            -   run: uv run main.py
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run tests
+        run: uv run pytest
+
+      - name: Run Scheduled Report Bot
+        run: uv run python -m scheduled_report
+
+      - name: Commit generated files
+        run: |
+          git config user.name "samanamaa"
+          git config user.email "simon.placko6@gmail.com"
+
+          git add reports/report.txt
+          git add data/snapshot.json
+
+          git diff --cached --quiet || git commit -m "Daily scheduled report"
+
+      - name: Push changes
+        run: git push
+
+      - name: Notify Discord
+        if: success()
+        run: |
+          curl -H "Content-Type: application/json" \
+          -d "{\"content\":\"Scheduled Report Bot completed successfully.\"}" \
+          ${{ secrets.DISCORD_WEBHOOK_REPORT }}
