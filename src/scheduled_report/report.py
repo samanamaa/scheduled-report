@@ -14,3 +14,4 @@ def report():
         f.write("All products:\n")
         for row in rows:
             f.write(f"{row[2]}: {float(row[5]):.2f} €\n")
+    return "./reports/report.txt"
