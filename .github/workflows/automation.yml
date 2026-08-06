@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Tests
+        run: uv run pytest
+
       - name: Run Scheduled Report Bot
         run: uv run main.py
         env:
