@@ -1,4 +1,4 @@
-Report generated at 2026-08-07 08:15:31.402662
+Report generated at 2026-08-06 10:35:55.471736
 
 Total revenue: 76070.17 €
 Top 3 products: [('Analytics Suite', 499.23), ('Sensor Kit', 498.73), ('Support Plan', 497.61)]
