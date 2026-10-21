@@ -45,7 +45,9 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Daily scheduled report"
-            git push
+            branch="${GITHUB_REF_NAME:-master}"
+            git pull --rebase origin "$branch"
+            git push origin "HEAD:$branch"
           fi
 
       - name: Upload snapshot.json to Discord
